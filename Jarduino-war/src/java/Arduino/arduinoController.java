@@ -38,8 +38,6 @@ public class arduinoController implements SerialPortEventListener {
     private int timeOut = 2000;
     private int dataRate = 9600;
 
-    private String lastRead = "0";
-
     private boolean isConected = false;
 
     public String getLastRead() {
